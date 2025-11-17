@@ -1,0 +1,54 @@
+{
+  "cliente": "NubeMar Solutions",
+  "direccion": {
+    "calle": "Muelle Azul s/n",
+    "ciudad": "Cartagena",
+    "pais": "ES"
+  },
+  "horario": {
+    "apertura": "00:00",
+    "cierre": "23:59",
+    "zona_horaria": "Europe/Madrid",
+    "dias_operacion": ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"]
+  },
+  "contactos": [
+    {
+      "nombre": "Clara Jiménez",
+      "rol": "Operaciones marítimas",
+      "telefono": "+34 622 000 410",
+      "email": "clara.jimenez@nubemar.io"
+    }
+  ],
+  "alarmas": [
+    {
+      "zona": "Centro de datos flotante",
+      "tipo": "Inundación",
+      "nivel": "crítico",
+      "codigo": "NMB-01"
+    },
+    {
+      "zona": "Pasarela de acceso",
+      "tipo": "Movimiento",
+      "nivel": "medio",
+      "codigo": "NMB-02"
+    }
+  ],
+  "telemetria_maritima": {
+    "sensores": ["nivel_agua", "velocidad_viento", "humedad_sala"],
+    "umbral_alerta": {
+      "nivel_agua_cm": 6,
+      "humedad_porcentaje": 70
+    },
+    "respaldo_alimentacion": "UPS 45 minutos"
+  },
+  "accesos": {
+    "principal": "Guardia + biometría",
+    "muelle": "PIN temporal",
+    "nodo_red": "VPN con MFA"
+  },
+  "planes_continuidad": {
+    "rpo_minutos": 15,
+    "rto_minutos": 60,
+    "proveedor_nube": "Azure"
+  }
+}
