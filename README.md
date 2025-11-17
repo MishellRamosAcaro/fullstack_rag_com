@@ -67,5 +67,5 @@ flowchart LR
 - Local vector store persisted in volume to avoid data loss.
 
 ## Contact / Contacto
-- **Email:** mishell.ramos@example.com
-- **LinkedIn:** https://www.linkedin.com/in/mishell-ramos
+- **Email:** josselynmishellramosacaro@gmail.com
+- **LinkedIn:** [Josselyn Mishell Ramos ](https://www.linkedin.com/in/josselyn-mishell-ramos/)
