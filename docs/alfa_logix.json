@@ -1,0 +1,63 @@
+{
+  "cliente": "AlfaLogix Industrial",
+  "direccion": {
+    "calle": "Av. Industria 120",
+    "ciudad": "Monterrey",
+    "pais": "MX",
+    "coordenadas": {
+      "lat": 25.6866,
+      "lng": -100.3161
+    }
+  },
+  "horario": {
+    "apertura": "07:00",
+    "cierre": "19:00",
+    "zona_horaria": "America/Mexico_City",
+    "dias_operacion": ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"]
+  },
+  "contactos": [
+    {
+      "nombre": "Patricia Mendez",
+      "rol": "Gerente de Planta",
+      "telefono": "+52 81 5555 0101",
+      "email": "patricia.mendez@alfalogix.mx"
+    },
+    {
+      "nombre": "Rodrigo Ayala",
+      "rol": "Seguridad",
+      "telefono": "+52 81 5555 0199",
+      "email": "seguridad@alfalogix.mx"
+    }
+  ],
+  "alarmas": [
+    {
+      "zona": "Perímetro norte",
+      "tipo": "Movimiento",
+      "nivel": "alto",
+      "codigo": "ALF-01"
+    },
+    {
+      "zona": "Almacén químico",
+      "tipo": "Temperatura",
+      "nivel": "crítico",
+      "codigo": "ALF-02"
+    }
+  ],
+  "accesos": {
+    "principal": "Tarjeta RFID + biometría",
+    "carga_descarga": "Código QR temporal",
+    "visitas": "Registro con identificación oficial"
+  },
+  "procedimientos": {
+    "emergencia": "Evacuar por salidas norte y sur; punto de reunión B",
+    "mantenimiento": "Checklist semanal de sensores y cámaras"
+  },
+  "mantenimiento_programado": [
+    {
+      "equipo": "Cámaras térmicas",
+      "frecuencia_dias": 30,
+      "proveedor": "Segurimax"
+    }
+  ],
+  "notas": "Priorizar inspección de la zona de almacén químico en verano"
+}

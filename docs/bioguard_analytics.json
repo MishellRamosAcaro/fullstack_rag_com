@@ -1,0 +1,51 @@
+{
+  "cliente": "BioGuard Analytics",
+  "direccion": {
+    "calle": "Calle 14 #980",
+    "ciudad": "Guadalajara",
+    "pais": "MX"
+  },
+  "horario": {
+    "apertura": "08:30",
+    "cierre": "18:30",
+    "zona_horaria": "America/Mexico_City",
+    "dias_operacion": ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"]
+  },
+  "contactos": [
+    {
+      "nombre": "Esteban Vidal",
+      "rol": "Director de Datos",
+      "telefono": "+52 33 4000 2200",
+      "email": "esteban.vidal@bioguard.ai"
+    }
+  ],
+  "alarmas": [
+    {
+      "zona": "Laboratorio principal",
+      "tipo": "Biométrica",
+      "nivel": "alto",
+      "codigo": "BIO-01"
+    }
+  ],
+  "monitoreo_iot": {
+    "sensores": ["temp", "humedad", "presión"],
+    "periodicidad_segundos": 45,
+    "retencion_dias": 30
+  },
+  "accesos": {
+    "principal": "Biometría + PIN",
+    "laboratorio": "Token NFC encriptado"
+  },
+  "gestion_documental": {
+    "respaldo": "S3 privado",
+    "cifrado": "AES-256",
+    "caducidad_credenciales_dias": 90
+  },
+  "proveedores": [
+    {
+      "nombre": "SecureCloud",
+      "servicio": "CCTV administrado",
+      "sla_horas": 4
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "cliente": "Taller Orbital",
+  "direccion": {
+    "calle": "Callejón Saturno 7",
+    "ciudad": "Bogotá",
+    "pais": "CO"
+  },
+  "horario": {
+    "apertura": "09:00",
+    "cierre": "20:00",
+    "zona_horaria": "America/Bogota",
+    "dias_operacion": ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"]
+  },
+  "contactos": [
+    {
+      "nombre": "María Ríos",
+      "rol": "Coordinadora de servicio",
+      "telefono": "+57 320 555 1900",
+      "email": "mrios@tallerorbital.co"
+    },
+    {
+      "nombre": "Julio Cárdenas",
+      "rol": "Responsable HSE",
+      "telefono": "+57 311 880 7770",
+      "email": "hse@tallerorbital.co"
+    }
+  ],
+  "alarmas": [
+    {
+      "zona": "Bahía de pintura",
+      "tipo": "Detección de gases",
+      "nivel": "alto",
+      "codigo": "ORB-01"
+    },
+    {
+      "zona": "Área de soldadura",
+      "tipo": "Chispa",
+      "nivel": "medio",
+      "codigo": "ORB-02"
+    }
+  ],
+  "equipos_criticos": [
+    {
+      "nombre": "Cabina de pintura",
+      "requiere_certificacion": true,
+      "fecha_proxima_inspeccion": "2024-12-15"
+    }
+  ],
+  "accesos": {
+    "principal": "Tarjeta de proximidad",
+    "taller": "Código PIN",
+    "oficinas": "Huella digital"
+  },
+  "inspecciones": {
+    "frecuencia_dias": 14,
+    "responsable": "HSE",
+    "checklist": ["extintores", "extracción de aire", "botiquines"]
+  },
+  "teletrabajo_habilitado": false,
+  "contratos_vigentes": [
+    {
+      "proveedor": "FerroSegur",
+      "servicio": "Detectores de gas",
+      "vencimiento": "2025-03-01"
+    }
+  ]
+}

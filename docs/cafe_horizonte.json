@@ -1,0 +1,58 @@
+{
+  "cliente": "Café Horizonte",
+  "direccion": {
+    "calle": "Av. Pacifico 55",
+    "ciudad": "Valparaíso",
+    "pais": "CL"
+  },
+  "horario": {
+    "apertura": "06:30",
+    "cierre": "22:00",
+    "zona_horaria": "America/Santiago",
+    "dias_operacion": ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
+  },
+  "contactos": [
+    {
+      "nombre": "Ignacia Pino",
+      "rol": "Administración",
+      "telefono": "+56 9 5000 3322",
+      "email": "admin@cafehorizonte.cl"
+    },
+    {
+      "nombre": "Luis Herrera",
+      "rol": "Jefe de turnos",
+      "telefono": "+56 9 5111 4477",
+      "email": "lherrera@cafehorizonte.cl"
+    }
+  ],
+  "alarmas": [
+    {
+      "zona": "Mostrador",
+      "tipo": "Pánico",
+      "nivel": "medio",
+      "codigo": "CAF-01"
+    },
+    {
+      "zona": "Bodega",
+      "tipo": "Puerta",
+      "nivel": "alto",
+      "codigo": "CAF-02"
+    }
+  ],
+  "puntos_de_venta": 3,
+  "inventario_critico": ["café especialidad", "leche vegetal", "cápsulas de gas"],
+  "accesos": {
+    "principal": "Llave física",
+    "bodega": "Candado electrónico con PIN",
+    "oficina": "Llave + verificación visual"
+  },
+  "camaras": {
+    "interiores": 6,
+    "exteriores": 2,
+    "retencion_video_dias": 15
+  },
+  "politicas_privacidad": {
+    "carteles_visibles": true,
+    "procedimiento_entrega": "Descarga directa a cliente, sin almacenamiento prolongado"
+  }
+}
