@@ -11,7 +11,8 @@
 **Español:** Mostrar un MVP listo para producción que combina FastAPI, LangChain, OpenAI y Vue 3 para ofrecer un flujo RAG para operadores de COM.
 
 ## Projects / Proyectos
-- **fullstack_rag_com** (folder: `.`) — Stack: FastAPI, LangChain, OpenAI, Chroma, Vue 3, Tailwind, PrimeVue, Docker. A COM operator console to query customer procedures (ACME, CAME) with RAG, contextual chunks, and session history.
+- **fullstack_rag_com** (folder: `.`) — Stack: FastAPI, LangChain, OpenAI, Chroma, Vue 3, Tailwind, PrimeVue, Docker. A COM operator console to query customer procedures (ACME, CAME) with RAG, contextual chunks, session history, and JSON knowledge bases per client.
+  - **Español:** Consola para operadores de COM (ACME, CAME) con RAG, fragmentos contextuales, historial de sesión y bases de conocimiento en JSON por cliente.
 
 ## Global tech stack / Stack tecnológico
 - Python, FastAPI, LangChain, OpenAI, Chroma, Pydantic
@@ -39,11 +40,18 @@
 flowchart LR
     UI[Vue 3 + PrimeVue] -->|Axios| API[FastAPI]
     API --> RAG[RAGService]
-    RAG --> DOCS[PDF per client]
+    RAG --> DOCS[JSON per client]
     RAG --> SPLIT[Chunking]
     RAG --> VSTORE[Chroma]
     RAG --> LLM[OpenAI]
 ```
+
+## Frontend preview / Vista previa del frontend
+**English:** Vue + PrimeVue console showcasing secure, auditable operations and JSON-sourced knowledge per client.
+
+**Español:** Consola Vue + PrimeVue que muestra operaciones seguras y auditables con conocimiento en JSON por cliente.
+
+![Frontend screenshot](docs/frontend-preview.svg)
 
 ## Getting started / Inicio rápido
 **English:**
